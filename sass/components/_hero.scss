@@ -1,0 +1,48 @@
+.hero {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4) 50%,
+      rgba(47, 48, 58, 0.4) 50%
+    ),
+    url("../images/nowy.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $colorBackground;
+  width: $containerWidth;
+  height: 600px;
+  border: 1px solid #000000;
+
+  &__position {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+  }
+
+  &__title {
+    font-weight: 900;
+    font-size: 44px;
+    color: #ffffff;
+    text-align: center;
+    width: 696px;
+    height: 120px;
+  }
+
+  &__button {
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #f5f4fa;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    border: none;
+    &:hover,
+    &:focus {
+      background-color: var(--colorAccent);
+      color: #ffffff;
+      transition-duration: var(--transitionDuration);
+      transition-timing-function: var(--transitionTiming);
+    }
+  }
+}

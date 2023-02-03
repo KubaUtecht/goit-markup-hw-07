@@ -1,0 +1,42 @@
+.contact {
+  width: auto;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #757575;
+  padding-left: 38px;
+
+  &:hover,
+  &:focus {
+    fill: $colorAccent;
+    cursor: pointer;
+    transition-duration: $transitionDuration;
+    transition-timing-function: $transitionTiming;
+  }
+
+  &__mail {
+    margin-left: 350px;
+  }
+  &__phone {
+    margin-right: 215px;
+  }
+  &__icon {
+    width: 16px;
+    height: 16px;
+    margin: auto 15px;
+  }
+  &__adress {
+    font-weight: 500;
+    font-size: 14px;
+    color: #757575;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      color: $colorAccent;
+      text-decoration: none;
+      transition-duration: $transitionDuration;
+      transition-timing-function: $transitionTiming;
+    }
+  }
+}
