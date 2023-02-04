@@ -39,10 +39,10 @@
     border: none;
     &:hover,
     &:focus {
-      background-color: var(--colorAccent);
+      background-color: $colorAccent;
       color: #ffffff;
-      transition-duration: var(--transitionDuration);
-      transition-timing-function: var(--transitionTiming);
+      transition-duration: $transitionDuration;
+      transition-timing-function: $transitionTiming;
     }
   }
 }

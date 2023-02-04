@@ -1,0 +1,19 @@
+.clients {
+  width: $sectionWidth;
+  height: 184px;
+  margin: 94px 215px;
+
+  &__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+    padding-bottom: 50px;
+    margin: 0;
+  }
+
+  &__position {
+    display: flex;
+    justify-content: space-between;
+  }
+}

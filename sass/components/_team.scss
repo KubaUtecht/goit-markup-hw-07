@@ -1,0 +1,21 @@
+.team {
+  background-color: #f5f4fa;
+  height: 648px;
+  margin-top: 94px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+    padding-bottom: 50px;
+    padding-top: 94px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__position {
+    width: $sectionWidth;
+    height: 428px;
+    margin: 0 215px;
+  }
+}

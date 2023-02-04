@@ -1,0 +1,12 @@
+.footer {
+  height: 252px;
+  background-color: $colorBackground;
+  padding-left: 215px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  position: relative;
+
+  &__position {
+    display: flex;
+  }
+}

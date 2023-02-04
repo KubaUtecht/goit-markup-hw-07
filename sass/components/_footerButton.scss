@@ -1,0 +1,34 @@
+.footer__button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: $colorAccent;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  border: none;
+  color: #eeeeee;
+  bottom: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 0;
+
+  &--title {
+    position: absolute;
+    left: 42px;
+    bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+  }
+
+  &--icon {
+    position: absolute;
+    right: 26px;
+    bottom: 12px;
+  }
+}

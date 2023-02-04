@@ -1,0 +1,36 @@
+.newsletter {
+  position: absolute;
+  right: 215px;
+  bottom: 106px;
+  width: 570px;
+  height: 86px;
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+  }
+
+  &__position {
+    padding-bottom: 12px;
+  }
+
+  &__input {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    height: 50px;
+    width: 358px;
+    background: $colorBackground;
+    padding-left: 16px;
+    color: #eeeeee;
+  }
+}

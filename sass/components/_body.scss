@@ -2,6 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
   margin: 0 auto;
-  width: var(--containerWidth);
+  width: $containerWidth;
   position: relative;
 }

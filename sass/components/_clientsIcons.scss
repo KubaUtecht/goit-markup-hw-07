@@ -1,0 +1,29 @@
+.clients__icons {
+  margin: 0;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #757575;
+  border-radius: 4px;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $colorAccent;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: $transitionDuration;
+    transition-timing-function: $transitionTiming;
+  }
+
+  &:hover > svg,
+  &:focus > svg {
+    fill: $colorAccent;
+    cursor: pointer;
+    transition-duration: $transitionDuration;
+    transition-timing-function: $transitionTiming;
+  }
+
+  &--position {
+    margin: 16px 32px;
+    fill: #757575;
+  }
+}
