@@ -9,8 +9,8 @@
     transition-duration: $transitionDuration;
     transition-timing-function: $transitionTiming;
   }
+}
 
-  &:hover &--image {
-    transform: translateY(0);
-  }
+.portfolio__gallery--item:hover .portfolio__gallery--image {
+  transform: translateY(0);
 }

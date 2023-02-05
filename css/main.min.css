@@ -732,10 +732,10 @@ body {
   width: auto;
   height: auto;
   background-color: rgba(33, 150, 243, 0.9);
-  -webkit-transition-duration: var(--transitionDuration);
-  transition-duration: var(--transitionDuration);
-  -webkit-transition-timing-function: var(--transitionTiming);
-  transition-timing-function: var(--transitionTiming);
+  -webkit-transition-duration: 250ms;
+  transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
   transition-property: transform;
@@ -786,7 +786,7 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio__gallery--item:hover .portfolio__gallery--item--image {
+.portfolio__gallery--item:hover .portfolio__gallery--image {
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
