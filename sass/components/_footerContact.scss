@@ -1,7 +1,9 @@
 .footer__contact {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding-top: 9px;
+  align-items: center;
 
   &--place {
     font-size: 14px;
@@ -22,5 +24,16 @@
       transition-duration: $transitionDuration;
       transition-timing-function: $transitionTiming;
     }
+  }
+}
+@media (min-width: 768px) {
+  .footer__contact {
+    margin-left: 76px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer__contact {
+    align-items: flex-start;
   }
 }

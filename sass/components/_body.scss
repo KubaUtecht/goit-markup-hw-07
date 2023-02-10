@@ -5,3 +5,15 @@ body {
   width: $containerWidth;
   position: relative;
 }
+
+@media (min-width: 768px) {
+  body {
+    width: $containerWidthTablet;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    width: $containerWidthDesktop;
+  }
+}

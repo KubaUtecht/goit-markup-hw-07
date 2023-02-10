@@ -27,3 +27,23 @@
     fill: #757575;
   }
 }
+
+@media (min-width: 768px) {
+  .clients__icons {
+    width: 226px;
+
+    &--position {
+      margin: 16px 60px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .clients__icons {
+    width: 170px;
+
+    &--position {
+      margin: 16px 32px;
+    }
+  }
+}
